@@ -1,0 +1,22 @@
+{
+  "name": "opencartframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:qa": "npx playwright test --config=playwright.config.qa.test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.3",
+    "playwright-html-reporter": "^0.1.11"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0"
+  }
+}
