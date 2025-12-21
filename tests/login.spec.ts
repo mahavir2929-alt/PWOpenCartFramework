@@ -8,7 +8,7 @@ test("verify valid login @login", async ({ homePage }) => {
  
 });
 
-test('verify invalid login',async ({page,baseURL})=>{
+test ('verify invalid login',async ({page,baseURL})=>{
     let loginPage = new Loginpage(page);
     await loginPage.goTologinPage(baseURL);   
     await loginPage.doLogin("opencart11@open.com", "opencart");
