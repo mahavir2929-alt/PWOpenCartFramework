@@ -146,6 +146,6 @@ jobs:
       - name: Report URLs
         run: |
           echo "Reports Published!"
-          echo "Playwright Built-in: https://github.com/mahavir2929-alt/PWOpenCartFramework.git/playwright-report/index.html"
-          echo "Playwright HTML Reporter: https://github.com/mahavir2929-alt/PWOpenCartFramework.git/playwright-html-report/index.html"
-          echo "Allure: https://github.com/mahavir2929-alt/PWOpenCartFramework.git/allure-report/index.html"
+          echo "Playwright Built-in: https://mahavir2929-alt/PWOpenCartFramework.git/playwright-report/index.html"
+          echo "Playwright HTML Reporter: https://mahavir2929-alt/PWOpenCartFramework.git/playwright-html-report/index.html"
+          echo "Allure: https://mahavir2929-alt/PWOpenCartFramework.git/allure-report/index.html"
