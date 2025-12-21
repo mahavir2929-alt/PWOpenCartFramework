@@ -11,7 +11,7 @@ test("verify valid login @login", async ({ homePage }) => {
 test ('verify invalid login',async ({page,baseURL})=>{
     let loginPage = new Loginpage(page);
     await loginPage.goTologinPage(baseURL);   
-    await loginPage.doLogin("opencart11@open.com", "opencart");
+    await loginPage.doLogin("opencart@open.com", "opencart");
     let errorMsg1=await loginPage.getinvalidLoginMsg()
     expect(errorMsg1).toContain(' Warning: No match for E-Mail Address and/or Password.')
 
