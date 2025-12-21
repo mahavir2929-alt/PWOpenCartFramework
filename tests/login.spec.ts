@@ -13,7 +13,7 @@ test ('verify invalid login',async ({page,baseURL})=>{
     await loginPage.goTologinPage(baseURL);   
     await loginPage.doLogin("opencart11@open.com", "opencart");
     let errorMsg1=await loginPage.getinvalidLoginMsg()
-    expect(errorMsg1).toContain(' Warning: No match for E-Mail Address and/or Password1.')
+    expect(errorMsg1).toContain(' Warning: No match for E-Mail Address and/or Password.')
 
 
 })
